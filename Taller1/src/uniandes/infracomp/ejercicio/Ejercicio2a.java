@@ -38,6 +38,7 @@ public class Ejercicio2a implements Runnable
 					if( i % 2 == 1)
 					{
 						System.out.println("El numero " + i + " es impar.");
+						Thread.sleep(dormirThread);
 					}
 				}
 			}

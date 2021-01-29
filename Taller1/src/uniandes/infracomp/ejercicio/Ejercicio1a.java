@@ -37,6 +37,7 @@ public class Ejercicio1a extends Thread
 					if( i % 2 == 1)
 					{
 						System.out.println("El numero " + i + " es impar.");
+						Thread.sleep(dormirThread);
 					}
 				}
 			}
